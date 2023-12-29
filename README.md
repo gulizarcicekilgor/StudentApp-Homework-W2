@@ -11,11 +11,14 @@ namespace WebApi.Extensions
 {
     public static class StringExtensions { }
 }
+
 --Swagger : \Program.cs
 
 --Global loglama yapan bir middleware(sadece actiona girildi gibi çok basit düzeyde)
 ![Alt text](images/image.png)
 ![Alt text](images/image-1.png)
+
+
 terminalde response body de gelen isteğin döndüğü datayı bir günlüğüne görebiliyoruz.
 ![Alt text](images/image-2.png)
 
